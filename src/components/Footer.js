@@ -1,7 +1,4 @@
-import {
-  Code, Mail, Phone, MapPin,
-  Facebook, Twitter, Instagram, Linkedin, Github
-} from 'lucide-react';
+import { Code, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin, Github } from 'lucide-react';
 
 export default function Footer() {
   const footerLinks = {
