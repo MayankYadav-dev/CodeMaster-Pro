@@ -39,34 +39,34 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="w-full md:w-1/2 grid grid-cols-4 sm:grid-cols-2 gap-8">
+          <div className="w-full md:w-1/2 grid grid-cols-2 sm:grid-cols-2 gap-8">
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 flex items-center justify-center bg-[#123458] rounded-2xl mb-3 shadow-lg">
-                <Users className="w-8 h-8 text-[#F1EFEc]" />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#123458] dark:bg-[#D4C9BE] rounded-2xl mb-3 shadow-lg">
+                <Users className="w-8 h-8 text-[#F1EFEc] dark:text-[#123458]" />
               </div>
               <div className="text-2xl font-bold text-[#123458] dark:text-[#D4C9BE]">50K+</div>
               <div className="text-[#123458]/80 dark:text-[#D4C9BE]/80">Active Students</div>
             </div>
 
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 flex items-center justify-center bg-[#D4C9BE] rounded-2xl mb-3 shadow-lg">
-                <BookOpen className="w-8 h-8 text-[#123458]" />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#D4C9BE] dark:bg-[#123458] rounded-2xl mb-3 shadow-lg">
+                <BookOpen className="w-8 h-8 text-[#123458] dark:text-[#F1EFEc]" />
               </div>
               <div className="text-2xl font-bold text-[#123458] dark:text-[#D4C9BE]">200+</div>
               <div className="text-[#123458]/80 dark:text-[#D4C9BE]/80">Expert Courses</div>
             </div>
 
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 flex items-center justify-center bg-[#123458]/80 rounded-2xl mb-3 shadow-lg">
-                <Trophy className="w-8 h-8 text-[#F1EFEc]" />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#D4C9BE] dark:bg-[#123458] rounded-2xl mb-3 shadow-lg">
+                <Trophy className="w-8 h-8 text-[#123458] dark:text-[#F1EFEc]" />
               </div>
               <div className="text-2xl font-bold text-[#123458] dark:text-[#D4C9BE]">95%</div>
               <div className="text-[#123458]/80 dark:text-[#D4C9BE]/80">Success Rate</div>
             </div>
 
             <div className="flex flex-col items-center text-center">
-              <div className="w-16 h-16 flex items-center justify-center bg-[#D4C9BE]/90 rounded-2xl mb-3 shadow-lg">
-                <Headphones className="w-8 h-8 text-[#123458]" />
+              <div className="w-16 h-16 flex items-center justify-center bg-[#123458] dark:bg-[#D4C9BE] rounded-2xl mb-3 shadow-lg">
+                <Headphones className="w-8 h-8 text-[#F1EFEc] dark:text-[#123458]" />
               </div>
               <div className="text-2xl font-bold text-[#123458] dark:text-[#D4C9BE]">24/7</div>
               <div className="text-[#123458]/80 dark:text-[#D4C9BE]/80">Mentors Support</div>

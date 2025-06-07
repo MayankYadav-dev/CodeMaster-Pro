@@ -46,7 +46,7 @@ export default function Features() {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-[#123458] dark:text-[#D4C9BE] mb-4">
             Why Choose
-            <span className="block text-[#123458] dark:text-[#D4C9BE]">
+            <span className="block text-[#123458]/70 dark:text-[#D4C9BE]/70">
               CodeMaster Pro?
             </span>
           </h2>
