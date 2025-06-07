@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
 
-  const navItems = ['Courses', 'Features', 'Pricing', 'About', 'Contact'];
+  const navItems = ['Features', 'Courses', 'Stats', 'Testimonials', 'Contact'];
 
   return (
     <nav className="fixed w-full z-50 bg-[#F1EFEc]/80 dark:bg-[#030303]/90 backdrop-blur-xl border-b border-[#D4C9BE] dark:border-[#123458]">
