@@ -9,7 +9,7 @@ export default function CTA() {
   ];
 
   return (
-    <section className="py-24 bg-[#F1EFEC] dark:bg-[#030303] relative overflow-hidden transition-colors duration-300">
+    <section id='contact' className="py-24 bg-[#F1EFEC] dark:bg-[#030303] relative overflow-hidden transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
           <h2 className="text-4xl md:text-6xl font-bold text-[#123458] dark:text-[#D4C9BE] mb-6">
