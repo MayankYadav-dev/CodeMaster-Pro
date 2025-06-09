@@ -84,7 +84,7 @@ export default function Stats() {
               key={index}
               className="text-center group"
             >
-              <div className="inline-flex items-center justify-center w-20 h-20 bg-[#123458] dark:bg-[#D4C9BE] text-white dark:text-[#123458] rounded-3xl mb-6 shadow-lg group-hover:scale-105 transition-transform duration-300">
+              <div className="inline-flex items-center justify-center w-20 h-20 bg-[#123458] dark:bg-[#D4C9BE] text-[#D4C9BE] dark:text-[#123458] rounded-3xl mb-6 shadow-lg group-hover:scale-105 transition-transform duration-300">
                 <stat.icon className="w-10 h-10" />
               </div>
 
