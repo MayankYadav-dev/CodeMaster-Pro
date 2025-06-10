@@ -1,6 +1,5 @@
 import { Code, Database, Smartphone, Palette, Shield, Brain, Cpu, Camera, Globe, BarChart3, Briefcase, Music, PenTool } from 'lucide-react';
 
-// Featured courses for homepage
 export const featuredCourses = [
   {
     title: 'Full Stack JavaScript',
@@ -37,7 +36,6 @@ export const featuredCourses = [
   }
 ];
 
-// All courses for the complete listing page
 export const allCourses = [
   {
     title: 'Full Stack JavaScript',

@@ -41,8 +41,7 @@ export default function AllCoursesPage() {
     <section>
     <Navbar />
     <div className="pt-16 min-h-screen bg-[#F1EFEC] dark:bg-[#030303] transition-colors duration-300">
-      {/* Header */}
-      
+
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -59,12 +58,10 @@ export default function AllCoursesPage() {
         </div>
       </div>
 
-      {/* Filters */}
       <div className="shadow-sm border-b border-[#E0E0E0] dark:border-[#1D2C3E]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-wrap gap-6 items-center justify-between">
             <div className="flex flex-wrap gap-4">
-              {/* Category Filter */}
               <div>
                 <label className="block text-sm font-medium text-[#123458] dark:text-[#D4C9BE] mb-2">
                   Category
@@ -80,7 +77,6 @@ export default function AllCoursesPage() {
                 </select>
               </div>
 
-              {/* Level Filter */}
               <div>
                 <label className="block text-sm font-medium text-[#123458] dark:text-[#D4C9BE] mb-2">
                   Level
@@ -97,7 +93,6 @@ export default function AllCoursesPage() {
               </div>
             </div>
 
-            {/* Sort By */}
             <div>
               <label className="block text-sm font-medium text-[#123458] dark:text-[#D4C9BE] mb-2">
                 Sort By
@@ -118,7 +113,6 @@ export default function AllCoursesPage() {
         </div>
       </div>
 
-      {/* Courses Grid */}
       <div className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
@@ -207,15 +201,6 @@ export default function AllCoursesPage() {
           )}
         </div>
       </div>
-
-      {/* Load More Button */}
-      {filteredCourses.length > 0 && (
-        <div className="text-center pb-12">
-          <button className="px-8 py-3 border-2 border-[#123458] text-[#123458] dark:text-[#D4C9BE] dark:border-[#D4C9BE] rounded-full font-semibold hover:bg-[#123458] hover:text-white dark:hover:bg-[#D4C9BE] dark:hover:text-[#030303] transition-all duration-200">
-            Load More Courses
-          </button>
-        </div>
-      )}
     </div>
     <Footer />
     </section>

@@ -74,7 +74,6 @@ export default function ContactPage() {
       <Navbar />
       <div className="pt-16 min-h-screen bg-[#F1EFEC] dark:bg-[#030303] transition-colors duration-300">
 
-        {/* Hero Section */}
         <div className="pt-24 pb-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-[#123458] dark:text-[#D4C9BE] mb-6">Get in Touch</h1>
@@ -85,7 +84,6 @@ export default function ContactPage() {
           </div>
         </div>
 
-        {/* Contact Info Cards */}
         <div className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {contactInfo.map((info, index) => (
@@ -99,11 +97,9 @@ export default function ContactPage() {
           </div>
         </div>
 
-        {/* Contact Form & FAQ */}
         <div className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-16">
 
-            {/* Contact Form */}
             <div className="bg-[#FFFFFF] dark:bg-[#0F1F36] rounded-2xl p-8 shadow-lg">
               <div className="flex items-center mb-6">
                 <MessageCircle className="w-6 h-6 text-[#123458] dark:text-[#D4C9BE] mr-3" />
@@ -147,7 +143,6 @@ export default function ContactPage() {
               </form>
             </div>
 
-            {/* FAQ Section */}
             <div>
               <h2 className="text-2xl font-bold text-[#123458] dark:text-[#D4C9BE] mb-8">Frequently Asked Questions</h2>
               <div className="space-y-6">

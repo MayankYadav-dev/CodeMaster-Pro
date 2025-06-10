@@ -38,9 +38,6 @@ export default function AboutPage() {
     <section>
     <Navbar />
     <div className="pt-16 min-h-screen bg-[#F1EFEC] dark:bg-[#030303] transition-colors duration-300">
-      
-      
-      {/* Hero Section */}
       <div className="pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -55,7 +52,6 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* Stats Section */}
       <div className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -73,7 +69,6 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* Story Section */}
       <div className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
@@ -100,7 +95,6 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* Values Section */}
       <div className="py-20 bg-white dark:bg-[#0F1F36]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -133,7 +127,6 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* CTA Section */}
       <div className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#123458] dark:text-[#D4C9BE] mb-6">
