@@ -69,7 +69,7 @@ export default function Navbar() {
             </button>
 
             <button 
-              onClick={() => handleNavigation('/allcourses')}
+              onClick={() => handleNavigation('/auth')}
               className="bg-[#123458] text-[#F1EFEc] px-6 py-2 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
             >
               Start Learning
@@ -113,7 +113,7 @@ export default function Navbar() {
                 </button>
               ))}
               <button 
-                onClick={() => handleNavigation('/allcourses')}
+                onClick={() => handleNavigation('/auth')}
                 className="w-full mt-4 bg-[#123458] text-[#F1EFEc] px-6 py-2 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
               >
                 Start Learning
