@@ -19,7 +19,7 @@ export default function Navbar() {
 
   const handleNavigation = (path) => {
     router.push(path);
-    setIsOpen(false); // Close mobile menu after navigation
+    setIsOpen(false);
   };
 
   const isActivePage = (path) => {

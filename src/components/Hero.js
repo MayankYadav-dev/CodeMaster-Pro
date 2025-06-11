@@ -1,7 +1,15 @@
 'use client';
+import { useRouter, usePathname } from 'next/navigation';
+import { useState } from 'react';
 import { ArrowRight, Play, Star, Users, BookOpen, Trophy, Headphones } from 'lucide-react';
 
 export default function Hero() {
+  const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
+  const handleNavigation = (path) => {
+    router.push(path);
+    setIsOpen(false);
+  };
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-[#F1EFEc] dark:bg-[#030303] overflow-hidden pt-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -25,7 +33,7 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="group relative px-8 py-4 bg-[#123458] text-[#F1EFEc] rounded-full font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center">
+              <button onClick={() => handleNavigation('/auth')} className="group relative px-8 py-4 bg-[#123458] text-[#F1EFEc] rounded-full font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center">
                 Start Your Journey
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
